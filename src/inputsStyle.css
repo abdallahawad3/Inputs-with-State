@@ -1,0 +1,67 @@
+input {
+  background-color: teal;
+  color: #fff;
+  font-size: 17px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid tan;
+}
+
+.card {
+  text-align: left;
+}
+
+.card h4 {
+  margin: 15px 0 5px 0 ;
+} 
+
+button {
+  padding: 10px 20px;
+  background-color: teal;
+  color: #fff;
+  outline: none;
+  border: 1px solid tan;
+  border-radius: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+textarea {
+  padding: 10px;
+  width: 240px;
+  height: 50px;
+  /* columns: ; */
+}
+
+.checkbox-card {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.checkbox-card label {
+  margin-top: -5px;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+select {
+  width: 100%; 
+  background: teal;
+  color: #FFF;
+  font-size: 16px;
+  height: 40px;
+  margin: 10px 0;
+}
+select option:first-child {
+  display: none;
+}
+select option:not(:last-child) {
+  display: block;
+  margin: 10px 0;
+}
